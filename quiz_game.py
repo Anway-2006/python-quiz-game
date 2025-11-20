@@ -4,7 +4,7 @@ import time
 # --- Global Storage for Scores (Max 5 entries) ---
 top_scores = []
 MAX_SCORES = 5
-TOTAL_QUIZ_TIME_LIMIT = 30  # seconds: 30 seconds for the entire quiz
+TOTAL_QUIZ_TIME_LIMIT = 60  # seconds: 60 seconds for the entire quiz
 
 def get_participant_name():
     """Gets the participant's name."""
